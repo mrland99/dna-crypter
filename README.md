@@ -1,6 +1,8 @@
 ## Description
 **dna-crypter** is a program that encodes ASCII text as a DNA sequence, and decodes vice versa. It was built using React.
 
+Demo: https://mrland99.github.io/dna-crypter/
+
 ## For developers
 If you want to implement your own encryption/decryption function, clone this respository. 
 
