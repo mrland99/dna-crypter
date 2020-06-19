@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dna-crypter/precache-manifest.f073aa1ee7881ad6ed1b5cce8ec8b2d7.js"
+  "/dna-crypter/precache-manifest.39fe77e36b6b54a8a877d3b6c88877e1.js"
 );
 
 self.addEventListener('message', (event) => {
