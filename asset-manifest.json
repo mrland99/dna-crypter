@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dna-crypter/static/css/main.d88f53f3.chunk.css",
+    "main.css": "/dna-crypter/static/css/main.c00cecd6.chunk.css",
     "main.js": "/dna-crypter/static/js/main.1eafe908.chunk.js",
     "main.js.map": "/dna-crypter/static/js/main.1eafe908.chunk.js.map",
     "runtime-main.js": "/dna-crypter/static/js/runtime-main.1bd69129.js",
@@ -8,16 +8,16 @@
     "static/js/2.8383546c.chunk.js": "/dna-crypter/static/js/2.8383546c.chunk.js",
     "static/js/2.8383546c.chunk.js.map": "/dna-crypter/static/js/2.8383546c.chunk.js.map",
     "index.html": "/dna-crypter/index.html",
-    "precache-manifest.39fe77e36b6b54a8a877d3b6c88877e1.js": "/dna-crypter/precache-manifest.39fe77e36b6b54a8a877d3b6c88877e1.js",
+    "precache-manifest.82110170b9522c4335dfd6ca3cb0e97d.js": "/dna-crypter/precache-manifest.82110170b9522c4335dfd6ca3cb0e97d.js",
     "service-worker.js": "/dna-crypter/service-worker.js",
-    "static/css/main.d88f53f3.chunk.css.map": "/dna-crypter/static/css/main.d88f53f3.chunk.css.map",
+    "static/css/main.c00cecd6.chunk.css.map": "/dna-crypter/static/css/main.c00cecd6.chunk.css.map",
     "static/js/2.8383546c.chunk.js.LICENSE.txt": "/dna-crypter/static/js/2.8383546c.chunk.js.LICENSE.txt",
     "static/media/dna-crypter.png": "/dna-crypter/static/media/dna-crypter.0929e90d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1bd69129.js",
     "static/js/2.8383546c.chunk.js",
-    "static/css/main.d88f53f3.chunk.css",
+    "static/css/main.c00cecd6.chunk.css",
     "static/js/main.1eafe908.chunk.js"
   ]
 }
