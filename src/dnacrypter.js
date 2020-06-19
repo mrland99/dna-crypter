@@ -1,5 +1,6 @@
 import React from 'react';
 import './dnacrypter.css';
+import dnaCrypterImg from './dna-crypter.png';
 
 const dna_dict = {
     '0':"A",
@@ -24,6 +25,13 @@ function encode() {
     var dna = document.getElementById("dna-output");
     var encoded_message = [];
 
+    /* Check if string is ASCII */
+    const isASCII = message => /^[\x00-\x7F]*$/.test(message);
+    if (!isASCII) {
+        dna.value = "Sorry, we currently only process ASCII characters."
+        return;
+    }
+
     /* Convert each character in the message into a four base DNA sequence */
     for (var i = 0; i < message.length; i++) {
         var ascii_base4 = pad(message.charCodeAt(i).toString(4), 4);
@@ -34,6 +42,7 @@ function encode() {
         encoded_message.push(dna_seq);
     }
     dna.value = encoded_message.join("");
+    return;
 }
 
 function decode() {
@@ -61,11 +70,29 @@ function decode() {
         i += 4;
     }
     text.value = decoded_message.join("");
+    return;
 }
 
 function Dnacrypter() {
   return (
     <div className="Dnacrypter">
+        <div className="title-container">
+            <h1>dna-crypter</h1>
+            <div className="line"></div>
+            <div class="spotlight">
+                <div class="proj-image">
+                    <img  src={dnaCrypterImg} alt="Logo" />
+                </div>
+                <div class="proj-content">
+                    <p><b>dna-crypter</b> is a program that allows users to encode ASCII text as DNA.</p>
+                    <p style={{marginTop: '0px'}}> Today, DNA technology is being developed at an unprecedented pace. Out of all the applications of DNA, one in particular 
+                        has the chance to revolutionize the entire tech industry: DNA data storage. Instead of bits, we can encode information as nucleotide 
+                        (A, C, G, T). It is being <a href="https://www.scientificamerican.com/article/dna-data-storage-is-closer-than-you-think/">developed</a> as we speak. 
+                        As with current data, there is a need to protect information. Thus, DNA cryptography, if not already, will become a pressing field in the near future.  </p>
+                </div>
+            </div>
+            <p>If you're interested in coming up with your own encryption, check out the source code here: [<a href="https://github.com/mrland99/dna-crypter">Link</a>]</p>
+        </div>
       <div className="flex">
         <div className="input-container">
             <label>Message:</label> 
