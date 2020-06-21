@@ -4,12 +4,12 @@ import dnaCrypterImg from './dna-crypter.png';
 
 const dna_dict = {
     '0':"A",
-    '1':"C",
-    '2':"G",
+    '1':"G",
+    '2':"C",
     '3':"T",
     'A':'0',
-    'C':'1',
-    'G':'2',
+    'G':'1',
+    'C':'2',
     'T':'3'
 }
 
